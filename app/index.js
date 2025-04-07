@@ -8,10 +8,14 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const app = express();
 
 app.use(session({
-  secret: 'clave-secreta', // cambia esta clave para producción
+  secret: 'tu_secreto',
   resave: false,
-  saveUninitialized: false,
-  cookie: { secure: false } // activar HTTPS
+  saveUninitialized: true,
+  cookie: {
+    secure: process.env.NODE_ENV === 'production', 
+    httpOnly: true,
+    sameSite: 'strict'
+  }
 }));
 
 app.set("port", 4000);
@@ -123,6 +127,6 @@ app.get("/api/logout", (req, res) => {
   });
 });
 
-app.listen(app.get("port"), () =>
-  console.log("Servidor corriendo en puerto", app.get("port"))
-);
+app.listen(4000, '0.0.0.0', () => {
+  console.log('Servidor corriendo en puerto 4000');
+});
