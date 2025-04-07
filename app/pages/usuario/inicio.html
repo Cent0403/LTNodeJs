@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/inicio/style.css">
+    <link rel="stylesheet" href="css/inicio/objetos.css">
+    <link rel="stylesheet" href="css/inicio/contenedores.css">
+    <link rel="stylesheet" href="css/inicio/imagenes.css">
+    <link rel="stylesheet" href="css/inicio/textos.css">
+    <script src="js/inicio.js" defer></script>
+    <title>LinkWeet</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="panel pIzquierdo">
+            <div class="pIzquierdofijo">
+                <div class="links">
+                    <li>
+                        <ul><button class="boton imagen-texto">
+                            <img src="multimedia/hogar.png" >
+                            <h2>Inicio</h2>
+                        </button></ul>
+                        <ul><button class="boton imagen-texto">
+                            <img src="multimedia/sobre.png" >
+                            <h2>Mensajes</h2>
+                        </button></ul>
+                        <ul><button class="boton imagen-texto">
+                            <img src="multimedia/usuario.png" >
+                            <h2>Perfil</h2>
+                        </button></ul>
+                        <ul><button id="logout-btn" class="boton imagen-texto"> 
+                            <img src="multimedia/boton-cerrar.png">
+                            <h2>Cerrar Sesión</h2>  
+                        </button></ul>
+                    </li>
+                </div>
+                <div class="pIzquierdoPerfil">
+                    <button class="boton">
+                        <img class= perfilfoto src="multimedia/profile.png">
+                        <div class="nombrePerfil">
+                            <h4 id="userName">Nombre de Perfil</h4>
+                            <p id="userHandle">@nombreperfil</p>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="panel pPosts">
+            <div class="Posts">
+                <button class="boton">Publicaciones</button>
+                <button class="boton">Ofertas</button>
+            </div>
+            <div class="Publicaciones">
+                <div class="postear">
+                    <img class= perfilfoto src="multimedia/profile.png">
+                    <textarea name="contPubli" placeholder="¿Qué quieres contar?" maxlength="500" id="contPubli"></textarea>
+                    <button class="bttnPostear">Postear</button>
+                </div>
+                <div class="publi">
+                    <div class="publi-encabezado">
+                        <img class= perfilfoto src="multimedia/profile.png">
+                        <div class="nombrePerfil">
+                            <h4><a id="post-username" href="http://">Nombre de Perfil</a></h4>
+                            <p id="post-user">@nombreperfil</p>
+                        </div>
+                        <p class="fechaPubli">23 mar 2025</p>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vitae dignissimos harum dicta culpa illum natus numquam. A ab neque non inventore, distinctio iure quod. Quidem ut consequatur minus accusamus!</p>
+                    <div class="botones-publi">
+                        <button><img src="multimedia/comentar.png" ></button>
+                        <button><img src="multimedia/compartir.png" ></button>
+                        <button><img src="multimedia/like.png" ></button>
+                        <button><img src="multimedia/reportar.png" ></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel pDerecho">
+            
+        </div>
+    </div>
+</body>
+</html>

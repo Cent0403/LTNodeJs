@@ -1,0 +1,69 @@
+.pIzquierdo button{
+    transform: scale();
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.Posts button{
+    width: 100%;
+    height: 100%;
+    font-size: 17px; 
+}
+
+.boton{
+    font-family: "Oswald";
+    color: white;
+    background-color: transparent;
+    border-style: none;
+}
+
+.bttnPostear{
+    font-family: "Oswald";
+    color: black;
+    font-size: 18px;
+    height: 50px;
+    width: 90px;
+    border-radius: 5rem;
+}
+
+.boton:hover {
+    background-color: rgb(20, 20, 20); 
+    color: white; 
+}
+
+.pIzquierdoPerfil button{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    margin-left: 3%;
+    padding: 10px;
+    border-radius: 5rem;
+    height: 70px;
+}
+
+.imagen-texto{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 20px;
+    padding-right: 20px;
+    margin: 0px;
+    border-radius: 5rem;
+}
+
+.botones-publi button{
+    background-color: transparent;
+    border-style: none;
+}
+
+#contPubli{
+    resize:none;
+    color: white;
+    font-size: 16px;
+    outline: none;
+    background-color: transparent;
+    scrollbar-width: none;
+    border-style: none;
+    width: 80%;
+    margin-right: 3%;
+}

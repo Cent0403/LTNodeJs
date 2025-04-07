@@ -1,0 +1,27 @@
+.imagen-texto h2{
+    padding: 0px;
+    padding-left: 20px;
+    margin: 0px;
+}
+.nombrePerfil a{
+    text-decoration: none;
+    color: white;
+}
+.nombrePerfil h4{
+    font-size: 16px;
+    padding: 0px;
+    margin:0px;
+}
+
+.nombrePerfil p{
+    padding: 0px;
+    color: gray;
+    margin:0px;
+}
+
+.fechaPubli{
+    padding-left: 45%;
+    color: gray;
+    margin:0px;
+    font-size: 12px;
+}

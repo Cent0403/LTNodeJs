@@ -1,0 +1,23 @@
+.imagen-texto img{
+    width: 30px;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.perfilfoto{
+    width: 50px;
+    height: 50px;
+    padding: 7px;
+    margin-right: 5px;
+    border-radius: 5rem;
+}
+
+.botones-publi img{
+    width: 20px;
+    height: 20px;
+}
+
+.publi-imagen{
+    max-width: 100%;
+}

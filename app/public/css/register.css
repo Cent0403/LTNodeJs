@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: black;
+    color: white;
+}
+
+.contenedor {
+    text-align: center;
+    width: 100%;
+    max-width: 350px; 
+    padding: 20px;
+    background: black;
+}
+
+.logo {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #1da1f2;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a{
+    color: lightblue;
+}
+
+.error{
+    color: red;
+}
+
+.escondido{
+    display: none;
+}
+
+button:hover {
+    background-color: #0d8bf0;
+} /* Esto lo que hace es que cambia un poco el color del boton cuando pones el cursor encima*/
+
